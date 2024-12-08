@@ -1,0 +1,8 @@
+package Factory.SimpleFactory.logger;
+
+class InfoLogger implements ILogger{
+    @Override
+    public void log(String msg) {
+        System.out.println("INFO: "+msg);
+    }
+}
