@@ -15,3 +15,7 @@ public class Client {
 
     }
 }
+
+//The problem with this, is that this is not following 
+//O -> cause we need to make changes in the Factory class to add something new
+// Dependency inversion ==> the factoru which is a higher class is dependenton the enum
